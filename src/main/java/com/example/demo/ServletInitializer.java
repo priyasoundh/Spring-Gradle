@@ -13,6 +13,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 	@RequestMapping(value="/as")
 	@ResponseBody
 	public String home() {
+		System.out.println("priyadharshini");
 		return "welcome priya";
 	}
 
