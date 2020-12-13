@@ -23,7 +23,6 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	classpath(
           "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-    }
 }
 
 war{
