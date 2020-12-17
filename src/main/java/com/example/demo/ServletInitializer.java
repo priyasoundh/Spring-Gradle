@@ -17,9 +17,9 @@ public class ServletInitializer extends SpringBootServletInitializer {
 		return "welcome priya";
 	}
 
-	//@Override
-	//protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-	//	return application.sources(SpringGradleApplication.class);
-	//}
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(SpringGradleApplication.class);
+	}
 
 }
